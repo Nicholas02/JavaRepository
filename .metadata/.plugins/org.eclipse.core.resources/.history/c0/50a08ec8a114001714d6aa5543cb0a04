@@ -1,0 +1,15 @@
+package exercises;
+
+import javax.swing.JOptionPane;
+
+public class MovieQuoteInfo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		JOptionPane.showMessageDialog(null,  "Money will come and go. We all know that. The most important thing in life will always be the people in this room. Right here, right now.");
+		JOptionPane.showMessageDialog(null,  "Dom Toretto");
+		JOptionPane.showMessageDialog(null,  "Fast Five");
+		JOptionPane.showMessageDialog(null,  "2005");
+	}
+
+}
