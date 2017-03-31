@@ -8,7 +8,7 @@ public class GetUserInfo3 {
 		String name;
 		int age;
 
-		Scanner inputdevice = new Scanner(System.in);
+		Scanner imputdevice = new Scanner(System.in);
 		System.out.println("Please enter your age>>");
 		age = inputdevice.nextInt();
 		inputdevice.nextLine();
