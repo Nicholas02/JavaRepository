@@ -36,7 +36,7 @@ public class MadLibs
 		System.out.println("Enter a color>> ");
 		color = inputDevice.nextLine();
 
-		System.out.println("Enter a word ending in EST>> ");
+		System.out.println("Enter ending in EST>> ");
 		wordEST = inputDevice.nextLine();
 
 		System.out.println("Enter a body part plural>> ");
@@ -61,7 +61,7 @@ public class MadLibs
 		c = a -b;
 	
 		System.out.println("The " + color + " Dragon is the " + wordEST + " Dragon of all. It has " + c + " " +
-		bodyPartPlural + ", and a "+ animal + " shaped like a " + noun + ". It loves to eat " + pluralNoun + 
+		bodyPartPlural + ", and a "+ animal + " shapes like a " + noun + ". It loves to eat " + pluralNoun + 
 		", although it will feast on nearly anything.");
 	}
 
