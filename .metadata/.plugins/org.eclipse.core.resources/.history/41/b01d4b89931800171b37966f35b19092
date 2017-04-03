@@ -10,7 +10,7 @@ double wage, weeklyPay;
 
 int dependents;
 
-final double HOURS_IN_WEEK = 37.5;
+final double HOURS_IN_WEEK = 3705;
 wageString = JOptionPane.showInputDialog(null, "Enter employee's hourly wage", JOptionPane.INFORMATION_MESSAGE);
 		
 		weeklyPay = Double.parseDouble(wageString) * HOURS_IN_WEEK;
