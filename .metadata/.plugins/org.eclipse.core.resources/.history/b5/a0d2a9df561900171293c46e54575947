@@ -7,7 +7,7 @@ public class CarleysMotto {
 		System.out.println("*************************************************");
 		System.out.println("*Carly's Makes the food that makes it the party!*");
 		System.out.println("*************************************************");
-		System.out.println("*       Sammy's Makes it fun in the sun!        *");
+		System.out.println("*       Carly's Makes it fun in the sun!        *");
 		System.out.println("*************************************************");
 	}
 
