@@ -13,11 +13,11 @@ public class Eggs {
 			System.out.println("Please enter how many eggs you need >> ");
 			eggs = input.nextInt();
 			
-			 
+			dozen = 
 			
 			
 			
-			
+			System.out.print(" You ordered " + eggs + ". Thats 2 dozen at  " + price + " gallon. And " + remainder + " quarts left");
 		
 		
 		
