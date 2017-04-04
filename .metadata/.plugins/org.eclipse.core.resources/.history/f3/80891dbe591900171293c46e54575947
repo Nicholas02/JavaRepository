@@ -13,9 +13,8 @@ public class IntegerDemoInteractive {
 
 	
 Scanner input = new Scanner(System.in);
-System.out.print("Please enter a interger >> ");
-anInt = input.nextInt();
-		System.out.print("Please enter a byte interger >> ");
+
+		System.out.print("Please enter a nyte interger >> ");
 		aByte = input.nextByte();
 		System.out.print("Please enter a short integer >> ");
 		aShort = input.nextShort();
@@ -23,15 +22,6 @@ anInt = input.nextInt();
 		aLong = input.nextLong();
 		
 		
-		
-		System.out.println("The int is " + anInt);
-		
-		System.out.println("The byte is " + aByte);
-		
-		System.out.println("The short is " + aShort);
-		
-		System.out.println("The long is " + aLong);
-	
 		
 		
 		
