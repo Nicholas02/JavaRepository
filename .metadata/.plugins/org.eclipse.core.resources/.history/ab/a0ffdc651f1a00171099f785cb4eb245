@@ -18,7 +18,7 @@ wageString = JOptionPane.showInputDialog(null, "Enter employee's hourly wage", J
 		dependentsString = JOptionPane.showInputDialog(null, "How many dependents?", "Salary dialog 2", JOptionPane.QUESTION_MESSAGE);
 		
 		dependents = Integer.parseInt(dependentsString);
-		JOptionPane.showMessageDialog(null, "Weekly salary is $" + weeklyPay + "\nDeductions will be made for " + dependents + " dependents");
+		JOptionPane.showMessageDialog(null, "Weekly salary is $" + weeklyPay + "\nDeductions will be mad efor " + dependents + " dependents");
 		
 		
 		

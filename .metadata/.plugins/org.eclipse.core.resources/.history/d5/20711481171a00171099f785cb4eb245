@@ -7,16 +7,15 @@ public class Eggs {
 		// TODO Auto-generated method stub
 		int eggs;
 		int dozen;
-		int individualEggs;
+		int looseEggs;
 
 			Scanner input = new Scanner(System.in);
 			System.out.println("Please enter how many eggs you need >> ");
 			eggs = input.nextInt();
 			
-			dozen = eggs / 12;
-			individualEggs = eggs % 12; 
+			 
 			
-			System.out.print(" You ordered " + eggs + " eggs, which is " + dozen + " dozen. And " + individualEggs + " individual eggs left");
+			
 			
 			
 		

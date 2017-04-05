@@ -14,9 +14,9 @@ public class Eggs {
 			eggs = input.nextInt();
 			
 			dozen = eggs / 12;
-			individualEggs = eggs % 12; 
+			individualEggs = eggs % 4; 
 			
-			System.out.print(" You ordered " + eggs + " eggs, which is " + dozen + " dozen. And " + individualEggs + " individual eggs left");
+			System.out.print(" You ordered " + eggs + " eggs, which is " + dozen + " dozen. And " + individualEggs + " individua eggs left");
 			
 			
 		
