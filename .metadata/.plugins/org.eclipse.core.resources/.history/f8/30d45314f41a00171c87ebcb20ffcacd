@@ -18,7 +18,7 @@ public class NauticalMiles {
 		convertedKilo = InputMiles * kilometersToMiles;
 		convertedNM = nauticalMiletoMile * InputMiles;
 		
-		System.out.print("There are " + convertedNM + " Nautical miles and " + convertedKilo + " kilometers in " + InputMiles + " miles.");
+		System.out.print(" You entered " + InputMiles + " Miles, which is " + kilometersToMiles + " gallon. And " + nauticalMiletoMile + " quarts left");
 		
 		
 		

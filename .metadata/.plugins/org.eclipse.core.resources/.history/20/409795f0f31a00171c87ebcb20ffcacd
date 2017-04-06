@@ -1,15 +1,11 @@
 package exercises;
 
-public class Initials {
+public class NauticalMiles {
 
 	public static void main(String[] args) 
 	{
-		
-		
-		
-		
-		
-		
+		int miles;
+		int kilometers;
 		
 		
 		
