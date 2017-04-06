@@ -8,14 +8,14 @@ public class InchesToFeet {
 	{
 		// TODO Auto-generated method stub
 
-		double inches;
+		double InputMiles;
 		double kilometersToMiles = 1.150779;
 		double nauticalMiletoMile = 1.852;
 		double convertedKilo, convertedNM;
 		
 		Scanner input = new Scanner(System.in);
 		System.out.println("Please enter the number of Miles >> ");
-		inches = input.nextDouble();
+		InputMiles = input.nextDouble();
 				
 		convertedKilo = InputMiles * kilometersToMiles;
 		convertedNM = nauticalMiletoMile * InputMiles;
