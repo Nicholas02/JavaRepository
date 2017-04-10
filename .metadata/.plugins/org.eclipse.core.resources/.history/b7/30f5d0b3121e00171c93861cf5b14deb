@@ -5,7 +5,7 @@ public class CreateSpaServices {
 	public static void main(String[] args) 
 	{
 		// TODO Auto-generated method stub
-		String service;
+		string service;
 		double price;
 		
 		SpaService firstService = new SpaService();

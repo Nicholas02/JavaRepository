@@ -1,0 +1,32 @@
+package degadosTacos;
+
+public class OrderList {
+
+	public static void main(String[] args) 
+	{
+	double tacoPrice = .99;
+	double buritoPrice = 2.00;	
+	double quesadillaprice = 4.00;	
+	double tortaPrice = 2.00;	
+		
+		
+		
+	System.out.println("tacos = 0.99");
+	
+	System.out.println("Buritos = 2.00");
+	
+	System.out.println("Quesadillas = 4.00");
+	
+	System.out.println("Torta = 2.00");
+	
+	System.out.println(" = 0.99");
+	
+	System.out.println("tacos = 0.99");
+	
+	System.out.println("tacos = 0.99");
+	
+		
+		
+	}
+
+}
