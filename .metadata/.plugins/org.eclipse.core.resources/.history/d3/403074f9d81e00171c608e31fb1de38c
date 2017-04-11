@@ -16,10 +16,6 @@ public class OrderList {
 	double enchilladaPrice = 5.00;
 	
 	
-
-	}
-public static void orderinglist()
-{
 	System.out.println("tacos = 0.99");
 	
 	System.out.println("Buritos = 2.00");
@@ -40,5 +36,6 @@ public static void orderinglist()
 	
 	System.out.println("Enchillads = 5.00");
 	
-}
+	}
+
 }

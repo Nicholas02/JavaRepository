@@ -1,0 +1,23 @@
+package degadosTacos;
+import java.text.DecimalFormat;
+public class delgadosTacos {
+
+	public static void main(String[] args) 
+	{
+		
+		DecimalFormat df = new DecimalFormat("0.00");
+		
+		
+		
+		
+		System.out.println("Your Total with tax comes to $" + (df.format(totalWithTax)));
+
+	}
+
+	
+	
+	
+	
+	
+	
+}

@@ -4,7 +4,7 @@ public class OrderList {
 
 	public static void main(String[] args) 
 	{
-	double tacoPrice = 0.99;
+	double tacoPrice = .99;
 	double buritoPrice = 2.00;	
 	double quesadillaprice = 4.00;	
 	double tortaPrice = 2.00;	
@@ -16,10 +16,6 @@ public class OrderList {
 	double enchilladaPrice = 5.00;
 	
 	
-
-	}
-public static void orderinglist()
-{
 	System.out.println("tacos = 0.99");
 	
 	System.out.println("Buritos = 2.00");
@@ -40,5 +36,6 @@ public static void orderinglist()
 	
 	System.out.println("Enchillads = 5.00");
 	
-}
+	}
+
 }
