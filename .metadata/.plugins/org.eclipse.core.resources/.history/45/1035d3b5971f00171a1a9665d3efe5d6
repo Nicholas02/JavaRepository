@@ -96,9 +96,7 @@ public class delgadosTacos {
 				 + (salsaOrdered * salsaPrice) + (nachoOrdered * nachoPrice) + (saladOrdered * saladPrice) + (streetcornOrdered * streetcornPrice) + 
 				 (tacobowlPrice * tacobowlOrdered) + (enchilladaPrice * enchilladaOrdered);
 		
-		System.out.println("Here you ordered " + tacoOrdered + " Tacos, " + burritoOrdered + " burritos, " + quesadillaOrdered + " quesadiilas. " + 
-		tortaOrdered + " tortas, " + salsaOrdered + " salsa, " + nachoOrdered + " nachos, " + saladOrdered + " salads, " + streetcornOrdered + 
-		" street corns, " + tacobowlOrdered + "taco bowls, " + enchilladaOrdered + " enchillads, for a total price of " + totalPrice);
+		System.out.println("How you ordered " + tacoOrdered + " Tacos, " + burritoOrdered + " burritos, for a total price of " + totalPrice);
 		
 	}
 
