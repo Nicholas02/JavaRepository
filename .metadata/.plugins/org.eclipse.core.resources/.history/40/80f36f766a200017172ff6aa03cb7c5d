@@ -15,17 +15,11 @@ import java.util.Scanner;
 	num1 = inputDevice.nextDouble();
 	inputDevice.nextLine();
 	
-	System.out.println("enter a percentage >>>> ");
-	num2= inputDevice.nextDouble();
-	inputDevice.nextLine();
-	
-	
 	computePercent(num1, num2);
 	}
 	public static void computePercent(double num1, double num2)
 	{
-		System.out.println(num1 + " is the percent of " + num2 + " = " + (num1 / num2)*100);
-		
+		System.out.println(num1 + " is the percent of " + num2 + " = " + (num1 / num2));
 		
 		
 		

@@ -24,8 +24,7 @@ import java.util.Scanner;
 	}
 	public static void computePercent(double num1, double num2)
 	{
-		System.out.println(num1 + " is the percent of " + num2 + " = " + (num1 / num2)*100);
-		
+		System.out.println(num1 + " is the percent of " + num2 + " = " + (num1 / num2));
 		
 		
 		
