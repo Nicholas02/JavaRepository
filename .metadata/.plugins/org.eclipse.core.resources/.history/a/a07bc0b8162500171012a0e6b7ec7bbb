@@ -36,6 +36,6 @@ public class AgeProgram {
 		System.out.println("would you like to enter another age? 1 for Yes or 2 for No");
 	choice = input.nextInt();
 	
-	}
+	}while(choice == 1);
 
 }

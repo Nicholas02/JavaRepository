@@ -1,0 +1,57 @@
+package execrises;
+import java.util.Scanner;
+public class PizzaChoice {
+
+	public static void main(String[] args) 
+	{
+		String choice, choice2;
+		int toppingChoice;
+		double large = 10.99;
+		double medium = 7.99;
+		double small = 4.99;
+		Scanner input = new Scanner(System.in);
+		System.out.print("Would you like a pizza? Yes or No>>>>>");
+		choice = input.nextLine();
+		
+		if ("yes".equals(choice) ||"yes".equals(choice)||"Y".equals(choice)||"y".equals(choice) )
+		{
+			System.out.println("you said " + choice + " to eating pizza");
+			System.out.print("Please chjoose a topping 1 for Hamburger, 2 for Pepperoni, or 3 for Candian Bacon.");
+			toppingChoice = input.nextInt();
+		if(toppingChoice == 1)
+		{
+			System.out.println("You said hamburger pizza, what size do you want? Small, Medium or Large.");
+			choice2 = input.nextLine();
+			if(choice2.equals("small"))
+			{
+				//here your going to display the price
+			}
+			if(choice2.equals("medium"))
+			{
+				//here your going to display the price
+			}
+			if(choice2.equals("large"))
+			{
+				//here your going to display the price
+			}
+			}
+			if(toppingChoice == 2)
+			{
+				
+			}
+			if(toppingChoice == 3)
+			{
+				
+			}
+			if(toppingChoice >= 4)
+			{
+			//we do not have that size
+			}
+		
+			}
+		
+		
+		
+	}
+
+}
