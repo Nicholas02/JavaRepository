@@ -3,6 +3,8 @@ import java.util.Scanner;
 public class delgadosTacos {
 	private static double totalPrice;
 	
+	
+	
 
 	public static void main(String[] args) 
 	{
@@ -23,9 +25,10 @@ public class delgadosTacos {
 		
 		
 	}
+	
 	public static void orderingMenu()
 	{
-		String tacoString, burritostring;
+		//String tacoString, burritostring;
 		double tacoPrice = 0.99;
 		double burritoPrice = 2.00;	
 		double quesadillaPrice = 4.00;	
@@ -37,61 +40,89 @@ public class delgadosTacos {
 		double tacobowlPrice = 4.20;
 		double enchilladaPrice = 5.00;
 		
-		double tacoOrdered;
-		double burritoOrdered;
-		double quesadillaOrdered;
-		double tortaOrdered;
-		double salsaOrdered;
-		double nachoOrdered;
-		double saladOrdered;
-		double streetcornOrdered;
-		double tacobowlOrdered;
-		double enchilladaOrdered;
-		
+		double tacoOrdered= 0;
+		double burritoOrdered= 0;
+		double quesadillaOrdered= 0;
+		double tortaOrdered=0;
+		double salsaOrdered=0;
+		double nachoOrdered=0;
+		double saladOrdered=0;
+		double streetcornOrdered=0;
+		double tacobowlOrdered=0;
+		double enchilladaOrdered=0;
+		int menuOrder;
+		//String choiceYes = null;
 	
 		
 		Scanner inputDevice = new Scanner(System.in);
+		do{
+		System.out.print("From the menu, which item do you want to order?>>>");
+		menuOrder = inputDevice.nextInt();
 		
-		System.out.println("how many tacos do you want? >>>>>");
-		tacoOrdered = inputDevice.nextDouble();
-		inputDevice.nextLine();
-		
-		System.out.println("How many burritos do you want? >>>>>");
-		burritoOrdered = inputDevice.nextDouble();
-		inputDevice.nextLine();
-		
-		System.out.println("How many quesadillas do you want? >>>>>");
-		quesadillaOrdered = inputDevice.nextDouble();
-		inputDevice.nextLine();
-		
-		System.out.println("How many tortas do you want? >>>>>");
-		tortaOrdered = inputDevice.nextDouble();
-		inputDevice.nextLine();
-		
-		System.out.println("How many salsas do you want? >>>>>");
-		salsaOrdered = inputDevice.nextDouble();
-		inputDevice.nextLine();
-
-		System.out.println("How many nachos do you want? >>>>>");
-		nachoOrdered = inputDevice.nextDouble();
-		inputDevice.nextLine();
-		
-		System.out.println("How many salads do you want? >>>>>");
-		saladOrdered = inputDevice.nextDouble();
-		inputDevice.nextLine();
-		
-		System.out.println("How many street corns do you want? >>>>>");
-		streetcornOrdered = inputDevice.nextDouble();
-		inputDevice.nextLine();
-		
-		System.out.println("How many tacobowls do you want? >>>>>");
-		tacobowlOrdered = inputDevice.nextDouble();
-		inputDevice.nextLine();
-		
-		System.out.println("How many enchillads do you want? >>>>>");
-		enchilladaOrdered = inputDevice.nextDouble();
-		inputDevice.nextLine();
-		
+			if(menuOrder == 1)
+				{
+				System.out.println("how many tacos do you want? >>>>>");
+				tacoOrdered = inputDevice.nextDouble();
+				
+				}
+			if(menuOrder == 2)
+				{
+				System.out.println("How many burritos do you want? >>>>>");
+				burritoOrdered = inputDevice.nextDouble();
+				inputDevice.nextLine();
+				}
+			if(menuOrder == 3)
+				{
+				System.out.println("How many quesadillas do you want? >>>>>");
+				quesadillaOrdered = inputDevice.nextDouble();
+				inputDevice.nextLine();
+				}
+			if(menuOrder == 4)
+				{
+				System.out.println("How many tortas do you want? >>>>>");
+				tortaOrdered = inputDevice.nextDouble();
+				inputDevice.nextLine();
+				}
+			if(menuOrder == 5)
+				{
+				System.out.println("How many salsas do you want? >>>>>");
+				salsaOrdered = inputDevice.nextDouble();
+				inputDevice.nextLine();
+				}
+			if(menuOrder == 6)
+				{
+				System.out.println("How many nachos do you want? >>>>>");
+				nachoOrdered = inputDevice.nextDouble();
+				inputDevice.nextLine();
+				}
+			if(menuOrder == 7)
+				{
+				System.out.println("How many salads do you want? >>>>>");
+				saladOrdered = inputDevice.nextDouble();
+				inputDevice.nextLine();
+				}
+			if(menuOrder == 8)
+				{
+				System.out.println("How many street corns do you want? >>>>>");
+				streetcornOrdered = inputDevice.nextDouble();
+				inputDevice.nextLine();
+				}
+			if(menuOrder == 9)
+				{
+				System.out.println("How many tacobowls do you want? >>>>>");
+				tacobowlOrdered = inputDevice.nextDouble();
+				inputDevice.nextLine();
+				}
+			if(menuOrder == 10)
+				{
+				System.out.println("How many enchillads do you want? >>>>>");
+				enchilladaOrdered = inputDevice.nextDouble();
+				inputDevice.nextLine();
+				}
+			System.out.println("Would you like anything else? type 11 for yes any number above 11 for no>>>>");
+			menuOrder = inputDevice.nextInt();
+			inputDevice.nextLine();
+			}while(menuOrder == 11);	
 		totalPrice = (tacoPrice * tacoOrdered) + (burritoOrdered * burritoPrice) + (quesadillaPrice * quesadillaOrdered) + (tortaPrice * tortaOrdered)
 				 + (salsaOrdered * salsaPrice) + (nachoOrdered * nachoPrice) + (saladOrdered * saladPrice) + (streetcornOrdered * streetcornPrice) + 
 				 (tacobowlPrice * tacobowlOrdered) + (enchilladaPrice * enchilladaOrdered);
@@ -99,6 +130,7 @@ public class delgadosTacos {
 		System.out.println("Here you ordered " + tacoOrdered + " Tacos, " + burritoOrdered + " burritos, " + quesadillaOrdered + " quesadiilas. " + 
 		tortaOrdered + " tortas, " + salsaOrdered + " salsa, " + nachoOrdered + " nachos, " + saladOrdered + " salads, " + streetcornOrdered + 
 		" street corns, " + tacobowlOrdered + "taco bowls, " + enchilladaOrdered + " enchillads, for a total price of " + totalPrice);
+		
 		
 	}
 
