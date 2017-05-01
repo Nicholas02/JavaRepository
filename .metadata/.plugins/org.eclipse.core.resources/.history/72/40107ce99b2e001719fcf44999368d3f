@@ -1,0 +1,33 @@
+package gameZone;
+import javax.swing.JOptionPane;
+public class pay 
+{
+
+	public static void main(String[] args) 
+	{
+		// TODO Auto-generated method stub
+		//what skill level the worker is
+		//options for insurance
+		String skillLevelString;
+		int skillLevelInt;
+		tring insuranceLevelString;
+		int
+		skillLevelString = JOptionPane.shiwInputDialog(null, "What skill level are you 1, 2, or 3?");
+		skillLevelInt = Integer.parseInt(skillLevelString);
+		
+		if(skillLevelInt == 1)
+		{
+			String insuranceLevelString = JOptionPane.showInputDialog(null, "What insurance do you have 1, 2, or 3?");
+			insuranceLevelInt = Integer.parseInt(insuranceLevelString);
+		}
+		if(skillLevelInt == 2)
+		{
+			
+		}
+		if(skillLevelInt == 3)
+		{
+			
+		}
+	}
+
+}
