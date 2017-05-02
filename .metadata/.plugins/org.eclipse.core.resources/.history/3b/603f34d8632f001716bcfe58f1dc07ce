@@ -1,5 +1,4 @@
 package gameZone;
-
 import java.util.Random;
 
 import javax.swing.JOptionPane;
@@ -40,40 +39,16 @@ public class RockPaperScissors
 			result = "tie";
 			tie++;
 		}
-		if(answerInt == 1 && computer == 2)//paper covers rock computer w
+		if(answerInt == 1 && computer == 2)
 		{
 			result = "Computer Wins";
 			humanScore++;
 		}
-		if(answerInt == 3 && computer == 1)//rock smash scissors computer w
-		{
-			result = "Computer Wins";
-			humanScore++;
-		}
-		if(answerInt == 3 && computer == 2)//scissors cut paper human w
+		if(answerInt == 2 && computer == 1)
 		{
 			result = "Human Wins";
 			humanScore++;
 		}
-		if(answerInt == 2 && computer == 3)//scissors cut paper computer w
-		{
-			result = "Computer Wins";
-			humanScore++;
-		}
-		
-		if(answerInt == 2 && computer == 1)//paper covers rock human w
-		{
-			result = "Human Wins";
-			humanScore++;
-		}
-		if(answerInt == 1 && computer == 2)// rock smash scissors human w
-		{
-			result = "human Wins";
-			humanScore++;
-		}
-		
-		
-		
 	
 	}
 
