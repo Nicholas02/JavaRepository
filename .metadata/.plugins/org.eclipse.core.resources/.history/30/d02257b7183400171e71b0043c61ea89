@@ -1,0 +1,44 @@
+package rightTriangle;
+
+import java.util.Scanner;
+
+public class rightTriangle
+{
+
+	private static Scanner input;
+	public static void main(String[] args) 
+	{
+	
+	
+		displayCSide();
+		
+		
+		
+	}
+	public static void displayCSide()
+	{
+		double userEntryA, userEntryB, answerC;
+		input = new Scanner(System.in);
+		System.out.print("Enter your number for A side>>>>> ");
+		userEntryA = input.nextInt();
+		
+		System.out.print("Enter your number for B side>>>>> ");
+		userEntryB = input.nextInt();
+		answerC = Math.sqrt(userEntryA * userEntryA + userEntryB * userEntryB);
+		System.out.print(answerC);
+	}
+	public static void trianglePicture()
+	{
+		System.out.println("t");
+		System.out.println("tt");
+		System.out.println("ttt");
+		System.out.println("tttt");
+		System.out.println("ttttt");
+		System.out.println("tttttt");
+		System.out.println("ttttttt");
+		System.out.println("tttttttt");
+		System.out.println("ttttttttt");
+		System.out.println("tttttttttt");
+		System.out.println("ttttttttttt");
+	}
+}
